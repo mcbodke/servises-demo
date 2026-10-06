@@ -1,0 +1,15 @@
+<div class="log-demo">
+  <h3>Logger Service Demo</h3>
+
+  <p class="instance-info">
+    Service Instance ID: {{ getServiceInstanceId() }}
+  </p>
+
+  <div class="buttons">
+    <button type="button" (click)="onLogClick()">Log Message</button>
+    <button type="button" (click)="onWarnClick()">Warn Message</button>
+    <button type="button" (click)="onErrorClick()">Error Message</button>
+  </div>
+
+  <p>Open the browser console to see the output.</p>
+</div>
